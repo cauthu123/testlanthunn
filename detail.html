@@ -1,0 +1,37 @@
+<!-- detail.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết Profile</title>
+    <link rel="stylesheet" href="./static/css/styles.css">
+    <!-- index.html, add.html, edit.html, detail.html -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+</head>
+
+<body>
+    <h1>Chi tiết Profile</h1>
+    <div id="profile-details">
+        <img src="" alt="Hình ảnh" id="profile-image">
+        <p><strong>Họ và Tên:</strong> <span id="profile-name"></span></p>
+        <p><strong>Phone:</strong> <span id="profile-phone"></span></p>
+        <p><strong>Mail chính:</strong> <a id="profile-main-email" href=""></a></p>
+        <p><strong>Mail làm việc:</strong> <a id="profile-work-email" href=""></a></p>
+        <p class="fontawesome">
+            <a id="profile-facebook" href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a id="profile-zalo" href="#" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            <span id="copy-url"><i class="fa-solid fa-share-nodes"></i></span>
+        </p>
+  
+    </div>
+    <button id="edit-profile">Sửa Profile</button>
+    <button id="delete-profile">Xóa Profile</button>
+    <button id="back-to-list">Quay lại Danh sách Profiles</button>
+
+    <script src="./static/js/detail.js"></script>
+</body>
+
+</html>

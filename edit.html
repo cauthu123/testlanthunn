@@ -1,0 +1,47 @@
+<!-- edit.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sửa Profile</title>
+    <link rel="stylesheet" href="./static/css/edit.css">
+    <!-- index.html, add.html, edit.html, detail.html -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+</head>
+
+<body>
+    <h1>Sửa Profile</h1>
+    <form id="edit-profile-form">
+        <input type="hidden" id="profile-id" name="profile-id">
+
+        <label for="image">Hình ảnh:</label>
+        <input type="file" id="image" name="image" accept="image/*"><br>
+        <label for="name">Họ và Tên:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone" required><br>
+
+        <label for="main-email">Mail chính:</label>
+        <input type="email" id="main-email" name="main-email" required><br>
+
+        <label for="work-email">Mail làm việc:</label>
+        <input type="email" id="work-email" name="work-email"><br>
+
+        <label for="facebook">Liên kết Facebook:</label>
+        <input type="text" id="facebook" name="facebook"><br>
+
+        <label for="zalo">Liên kết Zalo:</label>
+        <input type="text" id="zalo" name="zalo"><br>
+
+        <button type="submit">Lưu</button>
+    </form>
+    <button id="back-to-detail">Quay lại Chi tiết Profile</button>
+
+    <script src="./static/js/edit.js"></script>
+</body>
+
+</html>
